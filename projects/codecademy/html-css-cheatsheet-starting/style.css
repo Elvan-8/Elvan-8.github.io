@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #dddc957e; /* SteelBlue with opacity '88' */
+  font-family: Kanit;
+  font-weight: 200;
+}
+
+body {
+  margin: 2em 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  color: rgb(141, 0, 0);
+  margin: 0.5em 0;
+  letter-spacing: 0.05em;
+}
+
+h2 {
+  font-size: 2.5em;
+  color: rgb(141, 41, 41);
+  margin: 0.5em 0;
+  letter-spacing: 0.15em;
+}
+
+table {
+  margin: 0 auto;
+  width: 900px;
+  border: rgb(141, 0, 0) 2px solid;
+  box-sizing: border-box;
+  text-align: start;
+  letter-spacing: .15em;
+}
+
+th {
+  font-weight: 700;
+  background-color: rgba(141, 41, 41, 0.781);
+  letter-spacing: 0.3em;
+}
+
+td {
+  border-top: rgb(141, 24, 24) 1px solid;
+  margin: 0;
+}
+
+code {
+  font-family: "Roboto Mono";
+  font-size: 0.8em;
+  background-color: rgb(255, 242, 166);
+}
+
+tr:hover td {
+  background-color: rgba(141, 41, 41, 0.781);
+}
