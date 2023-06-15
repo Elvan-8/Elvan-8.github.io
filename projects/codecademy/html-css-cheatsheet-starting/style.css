@@ -4,9 +4,9 @@
 }
 
 html {
-  background-color: #dddc957e; /* SteelBlue with opacity '88' */
+  background-color: #f3cfa0; /* SteelBlue with opacity '88' */
   font-family: Kanit;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 body {
@@ -46,13 +46,25 @@ th {
 
 td {
   border-top: rgb(141, 24, 24) 1px solid;
-  margin: 0;
+  margin: auto;
+}
+
+p {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+  line-height: 2rem;
 }
 
 code {
   font-family: "Roboto Mono";
-  font-size: 0.8em;
-  background-color: rgb(255, 242, 166);
+  font-size: 0.85em;
+  background-color: beige;
+  width: 100%;
+  margin: auto;
+  letter-spacing: 0.35rem;
+  display: block;
 }
 
 tr:hover td {
