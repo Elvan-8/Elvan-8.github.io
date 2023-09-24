@@ -1,0 +1,235 @@
+/* Reset some default styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif; /* Apply Quicksand font to the whole page */
+}
+
+/* Natural and green color scheme */
+body {
+  background-color: #f0f5e9; /* Light green background */
+  height: 100vh;
+}
+
+/* Header styles */
+header {
+  background-color: #388E3C; /* Dark green header background */
+  color: #fff; /* White text */
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for contrast */
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: #388E3C; /* Dark green navigation background */
+  position: fixed; /* Fixed position at the top */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999; /* Ensure navigation is on top of other content */
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+/* Navigation link styles */
+nav a {
+  text-decoration: none;
+  color: #222; /* Dark green text */
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.5;
+  transition: color 0.3s ease;
+  padding: 12px 24px;
+  border-radius: 20px;
+}
+
+nav a:hover {
+  color: #4CAF50; /* Pastel green text on hover */
+}
+
+/* Centered headings */
+.centered-heading {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px; /* Add margin at the bottom for spacing */
+  font-size: 24px;
+  color: #00796B;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Quicksand', sans-serif; /* Apply Quicksand font to headings */
+}
+
+/* Content styles */
+main {
+  max-width: 800px;
+  margin: 70px auto 0; /* Add margin to the top, remove margin from the bottom */
+  margin-bottom: 100px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #222;
+  border-radius: 10px;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+/* General link styles */
+a {
+  text-decoration: none;
+  color: #00796B;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a:hover {
+  color: #4CAF50; /* Pastel green text on hover */
+}
+
+/* Natural reddish accent */
+.accent-red {
+  color: #C94141; /* Natural reddish accent color for specific elements */
+}
+
+/* Styles for links outside of the navigation menu */
+a:not(nav a) {
+  text-decoration: none;
+  color: #00796B; /* Dark green text */
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.5;
+  transition: color 0.3s ease;
+  padding: 12px 24px;
+  border-radius: 20px;
+}
+
+a:not(nav a):hover {
+  color: #4CAF50; /* Pastel green text on hover */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  header {
+    padding: 10px 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+/* Paragraph styles */
+.paragraph {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+/* Adjust the style for the massage content */
+.massage-content {
+  display: flex;
+  align-items: flex-start; /* Align content at the top */
+  flex-direction: row; /* Make content horizontal */
+}
+
+/* Adjust the style for the massage image */
+.massage-image {
+  max-width: 40%; /* Adjust the image width as needed */
+  margin-right: 20px; /* Add margin to separate the image from the text */
+  float: left; /* Float the image to the left */
+}
+
+/* Profile image container styles */
+.profile-image-container {
+  float: right;
+  margin: 0 0 20px 20px;
+}
+
+/* Profile image styles */
+.profile-image {
+  max-width: 300px;
+  display: block;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the "About Me" section */
+#about-me {
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* Styles for the portfolio project thumbnails */
+.project {
+  background-color: #f0f5e9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.project h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project img {
+  max-width: 100%;
+}
+
+/* Footer styles */
+footer {
+  background-color: #388E3C;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed; /* Change this to 'fixed' to keep it at the very bottom */
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* Footer text styles */
+footer p {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Margin adjustment for main content */
+main {
+  margin-bottom: 30px;
+}
+
+/* Style for the fancy quote */
+blockquote.fancy-quote {
+  background-color: #f9f9f9;
+  border-left: 4px solid #00796B; /* Green left border for the quote */
+  margin: 20px 0; /* Add margin for spacing */
+  padding: 20px 30px; /* Add padding for a quote-like appearance with more space */
+  font-style: italic; /* Italicize the quote text */
+  border-radius: 5px; /* Add rounded corners to the blockquote */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
