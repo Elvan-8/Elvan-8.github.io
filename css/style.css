@@ -148,20 +148,6 @@ a:not(nav a):hover {
   margin-top: 20px;
 }
 
-/* Adjust the style for the massage content */
-.massage-content {
-  display: flex;
-  align-items: flex-start; /* Align content at the top */
-  flex-direction: row; /* Make content horizontal */
-}
-
-/* Adjust the style for the massage image */
-.massage-image {
-  max-width: 40%; /* Adjust the image width as needed */
-  margin-right: 20px; /* Add margin to separate the image from the text */
-  float: left; /* Float the image to the left */
-}
-
 /* Profile image container styles */
 .profile-image-container {
   float: right;
